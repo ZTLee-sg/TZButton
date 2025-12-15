@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'TZButton_Example' do
+  pod 'TZButton', :path => '../'
+
+  target 'TZButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
