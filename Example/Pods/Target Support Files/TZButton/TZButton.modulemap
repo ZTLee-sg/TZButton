@@ -1,0 +1,6 @@
+framework module TZButton {
+  umbrella header "TZButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

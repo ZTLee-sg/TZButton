@@ -1,0 +1,16 @@
+PODS:
+  - TZButton (0.1.0)
+
+DEPENDENCIES:
+  - TZButton (from `../`)
+
+EXTERNAL SOURCES:
+  TZButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TZButton: 9e8fcb3d3ad5067fde5edef3951a9643c410e96c
+
+PODFILE CHECKSUM: 095b07e95598b6685a0865bbef1dd3de30ce1d21
+
+COCOAPODS: 1.16.2
