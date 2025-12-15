@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TZButton'
-  s.version          = '1.1.1'
-  s.summary          = 'A short description of TZButton.'
+  s.version          = '1.1.2'
+  s.summary          = '一个轻量级的iOS自定义按钮组件，支持自定义样式、点击事件及状态切换'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/ZTLee-sg/TZButton'
+  s.homepage         = 'https://github.com/562265055@qq.com/TZButton'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Leery TT' => '562265055@qq.com' }
-  s.source           = { :git => 'https://github.com/ZTLee-sg/TZButton.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/562265055@qq.com/TZButton.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
