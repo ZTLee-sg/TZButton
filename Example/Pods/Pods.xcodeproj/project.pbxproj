@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06E2E961807386AF06A9BCA9FE5691C2 /* TZButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 879436C5CD2048D5E4D4463E79C9E3D6 /* TZButton-dummy.m */; };
 		6AD65CD0E9901368E6E5B7551A8E4AB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		77B65F3D9F15F631FE8F1A2F100ABDBC /* Pods-TZButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E6C3F2A5C4B0221405CAE0445FF4AB /* Pods-TZButton_Tests-dummy.m */; };
+		812FFD5E5369599A2D5DD579F86873CE /* TZButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0F2691CCEBFFFC6D3680CBAF782DB /* TZButton-dummy.m */; };
 		9417A604DAA901A32E731AAFFD54EA81 /* Pods-TZButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5465A8AD601EF85F07391A48D7375A /* Pods-TZButton_Example-dummy.m */; };
 		97BAA3D07000F1044A7B9C29D25DEE9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		C6BF2730928ED309C9753435C11278AB /* Pods-TZButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F10B2C4D0CBBF6C0443D78571E39270B /* Pods-TZButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBEC61CEDD8C668000F10D1EBF3348D6 /* TZButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB91B425C5C09B7DEA323BF481979B21 /* TZButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBEC61CEDD8C668000F10D1EBF3348D6 /* TZButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41AACFB938591638DCDD46B0EEE5C910 /* TZButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC5BF9EADCD376002F693996B1BFB9E7 /* Pods-TZButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E09415E3B342870FFD42F30D22E4A038 /* Pods-TZButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F95F3EFAC0BFD8A3EA675587D4B8AFE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		FEECE6BC109DA0B04C1AA34C071BA6DB /* TZButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB180105A8F29D32465BAE691D08E97F /* TZButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,36 +38,36 @@
 
 /* Begin PBXFileReference section */
 		0E03D95A4FDFAE3E5308BAC7F50DAA86 /* Pods-TZButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TZButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		179F94EF8CD637AF282D60A254FCA238 /* TZButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TZButton.release.xcconfig; sourceTree = "<group>"; };
+		0EF0F2691CCEBFFFC6D3680CBAF782DB /* TZButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TZButton-dummy.m"; sourceTree = "<group>"; };
+		28BCFF3A533FC447D41821A9EFA23E90 /* TZButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TZButton.release.xcconfig; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3E5465A8AD601EF85F07391A48D7375A /* Pods-TZButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TZButton_Example-dummy.m"; sourceTree = "<group>"; };
-		47B6A1170131580DAD1384F27FDD7E68 /* TZButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TZButton.modulemap; sourceTree = "<group>"; };
-		563528C8049CF8A479B16931F0E95CA3 /* TZButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TZButton.debug.xcconfig; sourceTree = "<group>"; };
+		41AACFB938591638DCDD46B0EEE5C910 /* TZButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZButton-umbrella.h"; sourceTree = "<group>"; };
+		4C9E3BFE1593A7920CF3221B9A318E53 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6BAE866DCB8B7AD340AB0320D8410DA8 /* Pods-TZButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		70E69B982EF00501004AE752 /* TZButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TZButton.swift; path = TZButton/Classes/TZButton.swift; sourceTree = "<group>"; };
-		7C19ECBFD4561377F41906C655AF103C /* Pods_TZButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TZButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		879436C5CD2048D5E4D4463E79C9E3D6 /* TZButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TZButton-dummy.m"; sourceTree = "<group>"; };
+		7C19ECBFD4561377F41906C655AF103C /* Pods-TZButton_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TZButton_Tests"; path = Pods_TZButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9641D9D3B6E4C0D6D531A181866CEEBD /* Pods-TZButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TZButton_Tests.modulemap"; sourceTree = "<group>"; };
-		9833738B3B28B4FD76ED4850CC0D176B /* TZButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TZButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9885449EA7BBFB3B20AED1D16B2E0803 /* Pods-TZButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AE9FEF2DBE0B10340847DD14F416989E /* Pods-TZButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TZButton_Example.modulemap"; sourceTree = "<group>"; };
 		B2724B6E8DD3487E26E99FB57E11CD2C /* Pods-TZButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B3FF1B2601CBFBBB1B162F8EBA7D5E56 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B4D0E29DE2111BB75057C23A64C6A4B7 /* Pods-TZButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TZButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B50F2031946746AB8878269F5E68AD8B /* TZButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZButton-prefix.pch"; sourceTree = "<group>"; };
-		BEE11AF47969F1EEE4B141BF93A86729 /* TZButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TZButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE11AF47969F1EEE4B141BF93A86729 /* TZButton */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TZButton; path = TZButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C295B7F3792E103CEDF13DFE9FF85AC6 /* Pods-TZButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TZButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C380E2C45E697D46318DAAD2C1FF7277 /* Pods-TZButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TZButton_Example-Info.plist"; sourceTree = "<group>"; };
-		CB91B425C5C09B7DEA323BF481979B21 /* TZButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZButton-umbrella.h"; sourceTree = "<group>"; };
-		D1E6E3B80D5B372802491BFB82008970 /* TZButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TZButton-Info.plist"; sourceTree = "<group>"; };
+		C44E177A29F4F5D3E9CB6E8010E4B2CA /* TZButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TZButton.debug.xcconfig; sourceTree = "<group>"; };
+		CB180105A8F29D32465BAE691D08E97F /* TZButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TZButton.swift; path = TZButton/Classes/TZButton.swift; sourceTree = "<group>"; };
+		D780A38A51A65DA5199D6EEBC4B84385 /* TZButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TZButton-Info.plist"; sourceTree = "<group>"; };
 		D83EEEC94FF761727D756FA56CCD6E59 /* Pods-TZButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D888D28C59E0B4EEB7A71D7FF973A7DF /* Pods-TZButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TZButton_Tests-Info.plist"; sourceTree = "<group>"; };
 		E09415E3B342870FFD42F30D22E4A038 /* Pods-TZButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TZButton_Example-umbrella.h"; sourceTree = "<group>"; };
-		E0AF4282F842F733D27203F40C1874E3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E17B7E0922F400C8D4C81AE8D7742B85 /* TZButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZButton-prefix.pch"; sourceTree = "<group>"; };
+		E6EA99A38033742DF7F0430171D3A25F /* TZButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TZButton.modulemap; sourceTree = "<group>"; };
+		E77A43B8634842FF28C49607F8A5E726 /* TZButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TZButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E99C45E10EB7431172CF34B60E22296A /* Pods-TZButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TZButton_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E9F7F9BFE7E66570B0A40C425990BF6B /* Pods-TZButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TZButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EA9F3E89A06FC6C2D40CB2B69B11F21B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		EAEA62245DFAE8F417FEBE33621A3909 /* Pods_TZButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TZButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAEA62245DFAE8F417FEBE33621A3909 /* Pods-TZButton_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TZButton_Example"; path = Pods_TZButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F10B2C4D0CBBF6C0443D78571E39270B /* Pods-TZButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TZButton_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F4E6C3F2A5C4B0221405CAE0445FF4AB /* Pods-TZButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TZButton_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +100,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DC47E1F807B80451795CA6B42470873 /* TZButton */ = {
+			isa = PBXGroup;
+			children = (
+				CB180105A8F29D32465BAE691D08E97F /* TZButton.swift */,
+				E32E1372D96549091F880324C98FA86C /* Pod */,
+				FA2192204BE72AE96185F50D25718875 /* Support Files */,
+			);
+			name = TZButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		32592A5831E1D968431241912F572556 /* Pods-TZButton_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,50 +127,14 @@
 			path = "Target Support Files/Pods-TZButton_Tests";
 			sourceTree = "<group>";
 		};
-		459B9ABE87F0188E59058D39987EE9BC /* TZButton */ = {
-			isa = PBXGroup;
-			children = (
-				70E69B982EF00501004AE752 /* TZButton.swift */,
-				708514D523A4135163E6BA025E799B34 /* Pod */,
-				93EE69BC2199FA1496651853E331AA34 /* Support Files */,
-			);
-			name = TZButton;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		708514D523A4135163E6BA025E799B34 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				EA9F3E89A06FC6C2D40CB2B69B11F21B /* LICENSE */,
-				E0AF4282F842F733D27203F40C1874E3 /* README.md */,
-				9833738B3B28B4FD76ED4850CC0D176B /* TZButton.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		801AA8DA78A5BD555F3B4A27F3E3CD8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EAEA62245DFAE8F417FEBE33621A3909 /* Pods_TZButton_Example.framework */,
-				7C19ECBFD4561377F41906C655AF103C /* Pods_TZButton_Tests.framework */,
-				BEE11AF47969F1EEE4B141BF93A86729 /* TZButton.framework */,
+				EAEA62245DFAE8F417FEBE33621A3909 /* Pods-TZButton_Example */,
+				7C19ECBFD4561377F41906C655AF103C /* Pods-TZButton_Tests */,
+				BEE11AF47969F1EEE4B141BF93A86729 /* TZButton */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		93EE69BC2199FA1496651853E331AA34 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				47B6A1170131580DAD1384F27FDD7E68 /* TZButton.modulemap */,
-				879436C5CD2048D5E4D4463E79C9E3D6 /* TZButton-dummy.m */,
-				D1E6E3B80D5B372802491BFB82008970 /* TZButton-Info.plist */,
-				B50F2031946746AB8878269F5E68AD8B /* TZButton-prefix.pch */,
-				CB91B425C5C09B7DEA323BF481979B21 /* TZButton-umbrella.h */,
-				563528C8049CF8A479B16931F0E95CA3 /* TZButton.debug.xcconfig */,
-				179F94EF8CD637AF282D60A254FCA238 /* TZButton.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TZButton";
 			sourceTree = "<group>";
 		};
 		A121030A3EB1C60DA51336B1904E4A82 /* Pods-TZButton_Example */ = {
@@ -206,6 +182,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E32E1372D96549091F880324C98FA86C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4C9E3BFE1593A7920CF3221B9A318E53 /* LICENSE */,
+				B3FF1B2601CBFBBB1B162F8EBA7D5E56 /* README.md */,
+				E77A43B8634842FF28C49607F8A5E726 /* TZButton.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,9 +203,24 @@
 		F79FDA80AB11DB48614B4C71EB6CB9AE /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				459B9ABE87F0188E59058D39987EE9BC /* TZButton */,
+				0DC47E1F807B80451795CA6B42470873 /* TZButton */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FA2192204BE72AE96185F50D25718875 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6EA99A38033742DF7F0430171D3A25F /* TZButton.modulemap */,
+				0EF0F2691CCEBFFFC6D3680CBAF782DB /* TZButton-dummy.m */,
+				D780A38A51A65DA5199D6EEBC4B84385 /* TZButton-Info.plist */,
+				E17B7E0922F400C8D4C81AE8D7742B85 /* TZButton-prefix.pch */,
+				41AACFB938591638DCDD46B0EEE5C910 /* TZButton-umbrella.h */,
+				C44E177A29F4F5D3E9CB6E8010E4B2CA /* TZButton.debug.xcconfig */,
+				28BCFF3A533FC447D41821A9EFA23E90 /* TZButton.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TZButton";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +269,7 @@
 			);
 			name = "Pods-TZButton_Example";
 			productName = Pods_TZButton_Example;
-			productReference = EAEA62245DFAE8F417FEBE33621A3909 /* Pods_TZButton_Example.framework */;
+			productReference = EAEA62245DFAE8F417FEBE33621A3909 /* Pods-TZButton_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		5D56A4FF43A4CA8A9E159A9217231344 /* Pods-TZButton_Tests */ = {
@@ -287,7 +288,7 @@
 			);
 			name = "Pods-TZButton_Tests";
 			productName = Pods_TZButton_Tests;
-			productReference = 7C19ECBFD4561377F41906C655AF103C /* Pods_TZButton_Tests.framework */;
+			productReference = 7C19ECBFD4561377F41906C655AF103C /* Pods-TZButton_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		FB303A36F10C1F40AA0281A12341E475 /* TZButton */ = {
@@ -295,7 +296,7 @@
 			buildConfigurationList = 53184E36C47C6B57D16FEFE9F303CF26 /* Build configuration list for PBXNativeTarget "TZButton" */;
 			buildPhases = (
 				2685F67BE46217203C23F65815B7AFF8 /* Headers */,
-				5ED51AF6F3363866857B909998871ED5 /* Sources */,
+				831A7F2BFA702F65CCA286622F604301 /* Sources */,
 				4D40B35711FD8BAB212C715AE24C99DC /* Frameworks */,
 				EDAF4CFF9A219E0822CB81A56CBE2B6D /* Resources */,
 			);
@@ -305,7 +306,7 @@
 			);
 			name = TZButton;
 			productName = TZButton;
-			productReference = BEE11AF47969F1EEE4B141BF93A86729 /* TZButton.framework */;
+			productReference = BEE11AF47969F1EEE4B141BF93A86729 /* TZButton */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -326,6 +327,8 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 801AA8DA78A5BD555F3B4A27F3E3CD8B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -362,11 +365,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5ED51AF6F3363866857B909998871ED5 /* Sources */ = {
+		831A7F2BFA702F65CCA286622F604301 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06E2E961807386AF06A9BCA9FE5691C2 /* TZButton-dummy.m in Sources */,
+				FEECE6BC109DA0B04C1AA34C071BA6DB /* TZButton.swift in Sources */,
+				812FFD5E5369599A2D5DD579F86873CE /* TZButton-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D83EEEC94FF761727D756FA56CCD6E59 /* Pods-TZButton_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -443,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9885449EA7BBFB3B20AED1D16B2E0803 /* Pods-TZButton_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -528,7 +534,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -538,6 +545,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B2724B6E8DD3487E26E99FB57E11CD2C /* Pods-TZButton_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -637,7 +645,7 @@
 		};
 		D74198081677D2CD8D71758E2AF2B524 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 179F94EF8CD637AF282D60A254FCA238 /* TZButton.release.xcconfig */;
+			baseConfigurationReference = 28BCFF3A533FC447D41821A9EFA23E90 /* TZButton.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -675,6 +683,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6BAE866DCB8B7AD340AB0320D8410DA8 /* Pods-TZButton_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -707,7 +716,7 @@
 		};
 		F949DA5202F99FCF641C8F09819EBE50 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 563528C8049CF8A479B16931F0E95CA3 /* TZButton.debug.xcconfig */;
+			baseConfigurationReference = C44E177A29F4F5D3E9CB6E8010E4B2CA /* TZButton.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
