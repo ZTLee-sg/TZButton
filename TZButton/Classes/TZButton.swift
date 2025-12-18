@@ -14,6 +14,8 @@ import UIKit
 public enum ImagePosition: CaseIterable {
     /// 仅文字（隐藏图片）
     case onlyText
+    /// 仅图片
+    case onlyImage
     /// 图片在左
     case left
     /// 图片在右
@@ -201,14 +203,40 @@ public class TZButton: UIControl {
             self.alpha = 1.0
         }
         // 仅点击按钮内部时触发事件
-        guard let touch = touches.first, bounds.contains(touch.location(in: self)) else { return }
-        sendActions(for: .touchUpInside)
+//        guard let touch = touches.first, bounds.contains(touch.location(in: self)) else { return }
+//        sendActions(for: .touchUpInside)
     }
     
     public override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesCancelled(touches, with: event)
         UIView.animate(withDuration: 0.1) {
             self.alpha = 1.0
+        }
+    }
+    
+    public override var intrinsicContentSize: CGSize {
+        let imageSize = imageView.isHidden ? .zero : self.imageSize
+        let titleSize = titleLabel.intrinsicContentSize
+        
+        switch imagePosition {
+        case .onlyText:
+            return CGSize(
+                width: titleSize.width + insets.left + insets.right,
+                height: titleSize.height + insets.top + insets.bottom
+            )
+        case .onlyImage:
+            return CGSize(
+                width: imageSize.width + insets.left + insets.right,
+                height: imageSize.height + insets.top + insets.bottom
+            )
+        case .left, .right:
+            let totalWidth = imageSize.width + titleSize.width + spacing + insets.left + insets.right
+            let totalHeight = max(imageSize.height, titleSize.height) + insets.top + insets.bottom
+            return CGSize(width: totalWidth, height: totalHeight)
+        case .top, .bottom:
+            let totalWidth = max(imageSize.width, titleSize.width) + insets.left + insets.right
+            let totalHeight = imageSize.height + titleSize.height + spacing + insets.top + insets.bottom
+            return CGSize(width: totalWidth, height: totalHeight)
         }
     }
 }
@@ -333,6 +361,7 @@ private extension TZButton {
         
         switch position {
         case .onlyText: configureOnlyTextConstraints()
+        case .onlyImage: configureOnlyImageConstraints()
         case .left: configureImageLeftConstraints()
         case .right: configureImageRightConstraints()
         case .top: configureImageTopConstraints()
@@ -341,6 +370,17 @@ private extension TZButton {
     }
     
     // MARK: - 约束配置（分方向）
+    /// 仅图片约束
+    func configureOnlyImageConstraints(){
+        imageConstraints = [
+            imageView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: insets.left),
+            imageView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -insets.right),
+            imageView.topAnchor.constraint(equalTo: topAnchor, constant: insets.top),
+            imageView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -insets.bottom),
+            imageView.widthAnchor.constraint(equalToConstant: imageSize.width),
+            imageView.heightAnchor.constraint(equalToConstant: imageSize.height)
+        ]
+    }
     /// 仅文字约束
     func configureOnlyTextConstraints() {
         titleConstraints = [
