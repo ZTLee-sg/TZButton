@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TZButton'
-  s.version          = '1.1.4'
+  s.version          = '1.1.5'
   s.summary          = '一个轻量级的iOS自定义按钮组件，支持自定义样式、点击事件及状态切换'
 
 # This description is used to generate tags and improve search results.

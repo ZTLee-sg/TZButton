@@ -296,6 +296,11 @@ public extension TZButton {
     func setInsets(_ inset:UIEdgeInsets) {
         self.insets = inset
     }
+    /// 设置字体
+    /// - Parameter font: 字体
+    func setFont(_ font:UIFont) {
+        self.font = font
+    }
 }
 
 // MARK: - 私有方法（UI配置/布局/事件）
