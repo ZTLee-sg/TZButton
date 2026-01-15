@@ -86,6 +86,9 @@ public class TZButton: UIControl {
     private var imagePosition: ImagePosition = .onlyText {
         didSet { updateButtonLayout() }
     }
+    private var selectedImagePosition: ImagePosition = .onlyText {
+        didSet { updateButtonLayout() }
+    }
     /// 图文间距（默认5pt）
     private var spacing: CGFloat = .defaultSpacing {
         didSet { updateButtonLayout() }
@@ -183,7 +186,7 @@ public class TZButton: UIControl {
         titleConstraints.removeAll()
         
         // 根据图片位置配置约束
-        configureConstraints(for: imagePosition)
+        configureConstraints(for: isSelected ? selectedImagePosition:imagePosition)
         
         // 激活新约束
         NSLayoutConstraint.activate(imageConstraints + titleConstraints)
@@ -301,6 +304,20 @@ public extension TZButton {
     func setFont(_ font:UIFont) {
         self.font = font
     }
+    
+    /// 设置样式
+    /// - Parameters:
+    ///   - value: 样式值
+    ///   - state: 选中状态
+    func setPosition(_ value:ImagePosition, for state: ButtonState) {
+        switch state {
+        case .normal:
+            self.imagePosition = value
+        case .selected:
+            self.selectedImagePosition = value
+        }
+        
+    }
 }
 
 // MARK: - 私有方法（UI配置/布局/事件）
@@ -325,7 +342,8 @@ private extension TZButton {
     
     /// 绑定点击事件
     func setupEvent() {
-        addTarget(self, action: #selector(clickHandler), for: .touchUpInside)
+//        addTarget(self, action: #selector(clickHandler), for: .touchUpInside)
+        self.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(clickHandler)))
     }
     
     /// 点击事件处理
